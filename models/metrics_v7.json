@@ -1,0 +1,27 @@
+{
+  "version": "v7_fixed",
+  "date": "2026-11-24",
+  "description": "Avito RecSys 2026 v7: Strict Binary Target, Full Slate Intact, 16 Train Files, Clean 45 Features, Pure YetiRank, No MMR",
+  "validation_full_ndcg": {
+    "catboost_v7_solo": 0.362992,
+    "transformer_v7_solo": 0.345541,
+    "ensemble_v7_70_30": 0.361415,
+    "ensemble_v7_80_20": 0.363077,
+    "previous_v4_best_lb": 0.353913,
+    "previous_v6_drop": 0.351775,
+    "net_validation_gain_over_v4": 0.008776000000000006
+  },
+  "submissions_generated": {
+    "requested_70_30": "runs\\v7_fixed\\submission_v7_ensemble_70_30.parquet",
+    "optimal_80_20": "runs\\v7_fixed\\submission_v7_ensemble_80_20.parquet",
+    "catboost_solo": "runs\\v7_fixed\\submission_v7_catboost_solo.parquet",
+    "default_upload": "runs\\v7_fixed\\submission.parquet"
+  },
+  "test_integrity": {
+    "total_rows": 2904806,
+    "null_count": 0,
+    "nan_count": 0,
+    "infinite_count": 0,
+    "exact_alignment_with_sample_submission": true
+  }
+}

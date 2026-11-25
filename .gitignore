@@ -221,3 +221,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Competition datasets and huge artifacts
+competition/
+competition.zip
+baseline.zip
+catboost_info/
+runs/
+*.memmap
+*.parquet
+*.zip
+temp_repo/

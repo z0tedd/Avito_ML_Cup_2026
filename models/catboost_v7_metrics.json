@@ -1,0 +1,69 @@
+{
+  "model": "CatBoost v7 (16 Full Train Files, Binary Target, Pure YetiRank)",
+  "val_full_ndcg": 0.3629915213069186,
+  "val_ndcg_at_30": 0.301550966915639,
+  "val_ndcg_at_10": 0.2330362222146217,
+  "best_iteration": 285,
+  "tree_count": 286,
+  "num_train_files": 16,
+  "train_rows": 7642552,
+  "val_rows": 1389971,
+  "train_time_sec": 65.18031668663025,
+  "target_distribution": [
+    {
+      "target": 0,
+      "count": 7473446
+    },
+    {
+      "target": 1,
+      "count": 169106
+    }
+  ],
+  "top_features": [
+    {
+      "f5": 0.002362592248594142
+    },
+    {
+      "hist_item_sim_last": 0.002221267710500241
+    },
+    {
+      "hist_item_sim_max": 0.0014155637395067977
+    },
+    {
+      "f4": 0.0013420236893061377
+    },
+    {
+      "hist_high_intent_ratio": 0.0006770520247870726
+    },
+    {
+      "f5_diff_mean": 0.0006419869168174941
+    },
+    {
+      "hist_cat_count": 0.0006350412608041589
+    },
+    {
+      "cosine_diff_mean": 0.0005565072146638261
+    },
+    {
+      "hist_item_sim_zscore": 0.0005024552701458074
+    },
+    {
+      "f2_diff_mean": 0.000488137085417506
+    },
+    {
+      "dot_diff_mean": 0.0004041796544197451
+    },
+    {
+      "feed_size": 0.00035094565433135827
+    },
+    {
+      "category_id": 0.0003334223088550248
+    },
+    {
+      "f4_diff_max": 0.00031793068589236473
+    },
+    {
+      "f1_diff_max": 0.00031718061490582095
+    }
+  ]
+}
